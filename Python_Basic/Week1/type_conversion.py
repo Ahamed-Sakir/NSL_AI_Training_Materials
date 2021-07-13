@@ -26,7 +26,7 @@ num = 777
 num_to_string = str(num)
 print('This is string number:',num_to_string)
 
-# Sometimes we need to str conversion in print function
+# Sometimes we need to str1 conversion in print function
 num = 25
 print('This is ' + str(num) + ' number')
 
