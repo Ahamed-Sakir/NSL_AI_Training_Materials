@@ -35,3 +35,16 @@ i = 1
 while i < 10:
     print(i)
     i += 2
+
+# For loop
+x = [2, 5, 8, 44, 88]
+print('xxx')
+for i in x:
+    print(i)
+
+# List Comprehension
+print([i**2 for i in x if i % 2 == 0])
+
+# Dictionary Comprehension
+dic = {k: k**2 for k in x}
+print(dic)
