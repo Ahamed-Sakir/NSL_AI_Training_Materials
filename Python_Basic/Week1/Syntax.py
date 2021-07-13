@@ -13,3 +13,11 @@ print(single_quote)
 # User input
 user_input = input('Give your name:')
 print('This is your name:', user_input)
+
+# Output formatting
+number = 6
+number_2 = 2
+print(f'This is another number {number}, here is one also {number_2}')
+
+# Another way of formatting
+print('This is another number {0}, here is one also {1}'.format(number, number_2))
