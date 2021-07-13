@@ -32,3 +32,7 @@ individual_words = together_string.split(" ")
 print(individual_words)
 
 
+print("This is a sentence.".startswith("This"))
+print("This is a sentence.".endswith("."))
+
+

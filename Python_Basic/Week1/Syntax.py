@@ -21,3 +21,8 @@ print(f'This is another number {number}, here is one also {number_2}')
 
 # Another way of formatting
 print('This is another number {0}, here is one also {1}'.format(number, number_2))
+
+# Inplace Operator
+x = 6
+x += 2  # x = x + 2
+print(x)
