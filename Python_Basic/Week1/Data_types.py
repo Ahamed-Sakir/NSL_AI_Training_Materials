@@ -22,6 +22,12 @@ print('six' not in my_dict)
 
 print(my_dict.get(5, 'There is no key like this'))
 
+# Dictionary comprehension
+list_key = [1, 2, 3]
+list_value = ['sakir', 'Anannya', 'VU']
+new_dic = {list_key[i]: list_value[i] for i in range(len(list_key))}
+print(new_dic)
+
 # Tuples
 tuple_1 = ('first', 'second', 'third')
 print(tuple_1[2])

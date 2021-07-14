@@ -59,3 +59,17 @@ print(sum(list_jump))
 my_list = [22, 12, 18, 50, 60, 65, 70, 80, 85]
 new_list_auto = [num for num in my_list if num % 2 == 0]
 print(new_list_auto)
+
+
+# Matrix 2D to 1D using comprehension
+matrix_2d = [[8, 2, 3],
+            [6, 5, 6]]
+
+matrix_1d = [number for row in matrix_2d for number in row]
+print(matrix_1d)
+
+# Another Example
+vowels = 'aeiou'
+sentence = 'I am awesome'
+filtered_sentence = ''.join([letter for letter in sentence if letter not in vowels])
+print(filtered_sentence)
