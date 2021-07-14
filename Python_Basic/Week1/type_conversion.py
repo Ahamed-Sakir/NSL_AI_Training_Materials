@@ -24,11 +24,11 @@ print('string float number conversion:', float_to_int)
 # String conversion
 num = 777
 num_to_string = str(num)
-print('This is string number:',num_to_string)
+print('This is a string number:', num_to_string)
 
 # Sometimes we need to str1 conversion in print function
 num = 25
-print('This is ' + str(num) + ' number')
+print('This is a ' + str(num) + ' number')
 
 
 
