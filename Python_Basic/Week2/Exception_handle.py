@@ -31,3 +31,14 @@ except ZeroDivisionError:
     print('Oops! Please improve your math skill')
 finally:
     print('Nobody can stop me')
+
+# Using Raise
+try:
+    sum = 'sakir' + 5
+except:
+    print('Ops! An error occurred')
+    raise
+
+finally:
+    print('Sakir')
+    raise TypeError('Intentionally occurred an error')
