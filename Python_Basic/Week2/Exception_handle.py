@@ -5,12 +5,10 @@ while True:
         print('Oops! You have entered wrong types of number')
         break
 
-
 try:
     value = 45 / 0
 except:
     print('An error occurred')
-
 
 try:
     str_1 = '10'
@@ -26,7 +24,7 @@ except:
 # Using finally:
 try:
     print(1)
-    division = 45/0
+    division = 45 / 0
 except ZeroDivisionError:
     print('Oops! Please improve your math skill')
 finally:
@@ -42,3 +40,11 @@ except:
 finally:
     print('Sakir')
     raise TypeError('Intentionally occurred an error')
+
+# AssertionError
+
+print('step1')
+assert a == a
+print('step2')
+assert 2 == 3
+print('step3')
