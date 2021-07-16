@@ -15,6 +15,9 @@ class Shirt:
 #Shirt('Black', 'L', 'Formal', 1500)
 shirt_one = Shirt('Red', 'M', 'Casual', 200)
 print(shirt_one.price)
+shirt_one.change_price(1500)
+print('New Price of shirt_one:', shirt_one.price)
+print('Discount price of shirt one:', shirt_one.discount(.5))
 
 shirt_gallery = []
 shirt_one = Shirt('Black', 'L', 'Casual', 1500)
