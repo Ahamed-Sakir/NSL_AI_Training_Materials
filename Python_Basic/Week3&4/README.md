@@ -4,3 +4,6 @@ My Hackerrank profile:
 - String Problem: <br>
         - [The Minion Game](https://www.hackerrank.com/challenges/the-minion-game/problem)
   
+- Math Problem: <br>
+        - [Triangle Quest](https://www.hackerrank.com/challenges/python-quest-1/problem)
+  
