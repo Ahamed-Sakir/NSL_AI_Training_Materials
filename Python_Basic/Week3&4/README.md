@@ -7,3 +7,6 @@ My Hackerrank profile:
 - Math Problem: <br>
         - [Triangle Quest](https://www.hackerrank.com/challenges/python-quest-1/problem)
   
+- Exception Handling Problem: <br>
+        - [Exceptions](https://www.hackerrank.com/challenges/exceptions/problem)
+  
